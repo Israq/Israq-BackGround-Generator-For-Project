@@ -1,0 +1,23 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+    "build": "browserify background.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Israq/Israq-BackGround-Generator-For-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Israq/Israq-BackGround-Generator-For-Project/issues"
+  },
+  "homepage": "https://github.com/Israq/Israq-BackGround-Generator-For-Project#readme",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "lodash": "^4.17.21"
+  }
+}
